@@ -1,14 +1,6 @@
 # VocalFluencyEvaluator
 The purpose of this project is to allow english learners to test their pronunciation of commonly used words and sentences, and rating their pronunciation from 0-2, with 0 being a novice speaker and 2 being an expert speaker.
 
-https://colab.research.google.com/drive/1QrOC44ecKz-As_uVtSaAcBbYSzfcHmac?usp=sharing 
-https://colab.research.google.com/drive/1KGSrG4QU0NwFLeBpQXz2PL8kk0Ln7dCq?usp=sharing
-https://docs.google.com/document/d/1nSBfVuLYJljvnEHKMt4KH0HUSxqVVAUeUVMVUlSCwFY/edit?usp=sharing
-
-MEGA.NZ FOLDER W/ CODE/PS, ETC (IMPLEMENTATION OF INTERCONNECTED MODELS): 
-Folder Link: https://mega.nz/folder/fzoyTCgB
-Decrypt Key: 1gRej3ke87BLceXaLEeE0Q
-
 STATUS: In Progress https://levelup.gitconnected.com/5-killer-python-libraries-for-audio-processing-ddef703e3d84
 
 Model will evaluate how fluent a speaker’s speech is
@@ -77,21 +69,4 @@ Have the user input optimal audio clip/sample/provide optimal sample save as .wa
 Have the user input their input whatever save as .wav
 Convert both clips into spectrogram representations -> LIBROSA display.specshow
 Use librosa library for audiospectogram feature sxrtracoitn (ASFE) [ref1]
-Use a modified CNN to analyze trends/patterns in the spectrogram 
-Methods/Functions/Classes
-	user_input():Completed
-		“”” get input from user and save as a wav file”””
-		Give user multiple tries
-	user_gen(): Not Started
-		Make a somewhat optimal recording if user does not want to give input ←LATER FUNCTION
-	user_audio_rec(): done, may have bugs
-		“””User records audio sample and it is saved as a file”””
-		Allows user to input wav or mp3 also
-	spectrogram(audio_file): Completed
-		Convert audio to spectrogram using librosa
-	get_audio_features(): Completed
-		Return audio features using librosa
-	Class CNN (SVM?): Not Started
-		### i don't know yet, shd return important features like pitch, tone, raspiness
-	Class Modified LSTM Not Started
-		### ignore unnecessary features such as volume
+Use a modified CNN to analyze trends/patterns in the spectrogram 	
